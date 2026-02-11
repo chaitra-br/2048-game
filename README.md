@@ -1,84 +1,84 @@
-🎮 2048 Game – Modern JavaScript Implementation
+# 🎮 2048 Game – Modern JavaScript Implementation
 
-A modern, interactive implementation of the classic 2048 puzzle game, built using HTML, CSS, and Vanilla JavaScript.
+A modern, interactive implementation of the classic 2048 puzzle game built using **HTML, CSS, and Vanilla JavaScript**.
 
-This version includes custom animations, UI redesign, and improved user interaction for a more polished gameplay experience.
+This version includes custom animations, UI redesign, and improved gameplay interaction for a polished experience.
 
-🚀 Live Demo
+---
 
-🔗 Play Here:
-(Add your Vercel link)
+## 🚀 Live Demo
 
-🛠 Tech Stack
+🔗 **Play Here:**  
+(Add your Vercel link here)
 
-HTML5 – Structure
+---
 
-CSS3 – Custom styling & animations
+## 🛠️ Tech Stack
 
-JavaScript (ES6) – Game logic & state management
+- **HTML5** – Structure
+- **CSS3** – Styling & animations
+- **JavaScript (ES6)** – Game logic & state management
 
-✨ Features
+---
 
-4x4 interactive grid
+## ✨ Features
 
-Arrow key movement controls
+- 4x4 interactive grid
+- Arrow key controls
+- Tile merging logic
+- Real-time score tracking
+- Restart game functionality
+- Tile pop animation
+- Merge animation effects
+- Modern dark UI redesign
+- Smooth transitions and hover effects
 
-Tile merging logic
+---
 
-Real-time score tracking
+## 🎨 UI Highlights
 
-Restart game functionality
+- Dark gradient background
+- Glassmorphism-inspired board
+- Custom color palette for tiles
+- Rounded components
+- Shadow & depth effects
+- Centered responsive layout
 
-Smooth tile pop animation
+---
 
-Merge animation effects
+## 🧠 Core Concepts Implemented
 
-Modern dark-themed UI design
+- 2D array state management
+- DOM manipulation
+- Keyboard & click event handling
+- Dynamic class assignment
+- CSS keyframe animations
+- Merge and slide game logic algorithms
 
-Responsive centered layout
+---
 
-🎨 UI Enhancements
+## 📂 Project Structure
 
-Modern dark gradient background
-
-Glassmorphism-inspired board design
-
-Custom tile color palette
-
-Smooth transitions and shadow effects
-
-Rounded UI elements
-
-Improved button styling with hover effects
-
-🧠 Core Concepts Implemented
-
-2D array state management
-
-DOM manipulation
-
-Event handling (keyboard + click events)
-
-Dynamic class assignment
-
-CSS keyframe animations
-
-Game logic algorithms (merge + slide mechanics)
-
-📂 Project Structure
-2048-game/
+2048-modern-js/
 │
-├── index.html      # Game structure
-├── 2048.css        # Styling and animations
-├── 2048.js         # Game logic
+├── index.html # Game structure
+├── 2048.css # Styling & animations
+├── 2048.js # Game logic
 └── README.md
 
-🎯 How to Run Locally
 
-Clone the repository
+---
 
-Open index.html in your browser
+## ▶️ How to Run Locally
 
-Start playing 🎉
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Start playing 🎉
 
 No external libraries required.
+
+---
+
+## 📌 Author
+
+Developed by B R CHAITRA
