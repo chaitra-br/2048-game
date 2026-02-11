@@ -59,13 +59,10 @@ This version includes custom animations, UI redesign, and improved gameplay inte
 
 ## 📂 Project Structure
 
-2048-modern-js/
-│
-├── index.html # Game structure
-├── 2048.css # Styling & animations
-├── 2048.js # Game logic
-└── README.md
-
+- `index.html` – Game structure  
+- `2048.css` – Styling & animations  
+- `2048.js` – Game logic  
+- `README.md`
 
 ---
 
