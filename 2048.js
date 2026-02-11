@@ -8,6 +8,20 @@ window.onload = function() {
 
     document.getElementById("restart-btn")
         .addEventListener("click", restartGame);
+
+    document.querySelectorAll(".control-btn").forEach(button => {
+        button.addEventListener("click", () => {
+            const direction = button.dataset.dir;
+
+            if (direction === "left") slideLeft();
+            if (direction === "right") slideRight();
+            if (direction === "up") slideUp();
+            if (direction === "down") slideDown();
+
+            setTwo();
+            document.getElementById("score").innerText = score;
+        });
+    });
 }
 
 function setGame() {
@@ -198,3 +212,5 @@ function restartGame() {
     document.getElementById("board").innerHTML = "";
     setGame();
 }
+
+

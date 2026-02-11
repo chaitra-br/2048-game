@@ -9,7 +9,7 @@ This version includes custom animations, UI redesign, and improved gameplay inte
 ## 🚀 Live Demo
 
 🔗 **Play Here:**  
-(Add your Vercel link here)
+https://2048-game-nine-snowy.vercel.app/
 
 ---
 

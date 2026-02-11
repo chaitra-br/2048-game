@@ -4,6 +4,12 @@ body {
     color: white;
     text-align: center;
     margin: 0;
+
+}
+
+.main-container {
+    text-align: center;
+    padding: 30px 0;
 }
 
 hr {
@@ -67,6 +73,10 @@ hr {
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
+.controls {
+    display: none;
+}
+
 @keyframes pop {
     0% {
         transform: scale(0);
@@ -114,3 +124,54 @@ hr {
 .x512 { background-color: #6610f2; color: white; }
 .x1024 { background-color: #ff6f61; color: white; }
 .x2048 { background-color: gold; color: black; }
+
+@media (max-width: 768px) {
+    
+    html, body {
+        overflow-x: hidden;
+    }
+
+     #board {
+        width: 90vw;
+        height: 90vw;
+        max-width: 360px;
+        max-height: 360px;
+
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .tile {
+        flex: 1 0 calc(25% - 10px);
+        height: calc((90vw - 40px) / 4);
+        font-size: 18px;
+    }
+    
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .controls div {
+        display: flex;
+        gap: 15px;
+    }
+
+    .control-btn {
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+
+        background: linear-gradient(45deg, #4e73df, #6f42c1);
+        color: white;
+
+        transition: 0.2s ease;
+    }
+}
